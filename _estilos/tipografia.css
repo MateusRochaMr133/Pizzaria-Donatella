@@ -59,12 +59,18 @@ p.destaque {
 header div#chamada h1 {
     color: #fff;
     text-shadow: 4px 6px 10px #000;
+    animation-name: HeaderH1-moverParaDireita;
+    /* animation-delay: 0.8s; */
+    animation-duration: 1s;
 }
+
 
 header div#chamada h4 {
     font-size: 250%;
     text-shadow: 4px 6px 10px #000;
     margin-bottom: 55px;
+    animation-name: HeaderH4-moverEsquerda;
+    animation-duration: 2.5s;
 }
 
 header div#chamada a {
@@ -76,4 +82,24 @@ header div#chamada a {
     border-radius: 50px;
     display: inline-block;
     background: linear-gradient(rgba(7, 140 , 49 , 55) 0% , rgba(6 , 89 , 2 , 35) 50%, rgba(6, 89 , 2, 35) 100%);
+    animation-name: Button-moverCima;
+    animation-duration: 2.5s;
 }
+
+/* Seção - Domingo Perfeito */
+
+div#pontos-chaves h4 {
+    color: #404040;
+}
+
+div#pontos-chaves h4::after {
+    display: block;
+    background-color: #078c31;
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: "";
+}
+
+
+
