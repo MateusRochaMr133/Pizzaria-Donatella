@@ -1,0 +1,81 @@
+/* Tipografia */
+
+p.destaque, section#pizza p.destaque, section#testemunha p.destaque{
+    width: 80%;
+}
+
+/* Header */
+
+nav {
+    display: none;
+}
+
+/* Domingo Perfeito */
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita {
+    display: none;
+}
+
+div#domingo-perfeito-centro {
+    width: 95%;
+}
+
+/* Pizza */
+
+div#pizza-opcoes-mestre {
+    width: 95%;
+}
+
+/* Testemunhos */
+
+div#testemunha-centro {
+    width: 680px;
+}
+
+div#testemunha-esquerda, div#testemunha-direita {
+    display: none;
+}
+
+/* Transiçao */
+
+div#transicao-testemunha-plano {
+    display: none;
+}
+
+/* Planos */
+
+div#planos-janela {
+    width: 100%;
+}
+
+div.planos {
+    margin: 80px 5px;
+}
+
+@media screen and (max-width:940px) {
+    div.planos {
+        width: 220px;
+    }
+}
+
+/* Footer */
+
+footer div#mapa, footer div#info {
+    width: 45%;
+}
+
+footer div#info {
+    margin-right: 35px;
+}
+
+footer div#redes-sociais ion-icon {
+    width: 10%;
+}
+
+footer div#pizza-rodape-decoracao {
+    display: none;
+}
+
+
+
+

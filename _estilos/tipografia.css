@@ -140,4 +140,16 @@ section#plano-principal div.planos-bottom p {
     padding: 35px;
 }
 
+/* Footer */
+
+footer div#info ul {
+    margin-left: 15px;
+    margin-bottom: 120px;
+}
+
+footer div#info li {
+    list-style: none;
+    color: #Fff;
+    margin-bottom: 5px;
+}
 
