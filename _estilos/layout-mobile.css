@@ -66,3 +66,14 @@ div.planos {
     width: 290px;
     margin: 30px;
 }
+
+/* Footer */
+
+footer div#mapa {
+    display: none;
+}
+
+footer div#info {
+    width: 93%;
+}
+
